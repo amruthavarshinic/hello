@@ -2,8 +2,8 @@ name: GitHub Actions Demo
 on: 
   workflow_dispatch:
     inputs:
-        environment:
-        description: Environment to run tests against
+      environment:
+        description: 'Environment to run tests against'
         type: environment
         required: true 
 jobs:
