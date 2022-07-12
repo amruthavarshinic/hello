@@ -1,1 +1,1 @@
-
+com.quixy.qa
