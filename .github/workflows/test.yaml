@@ -8,6 +8,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: npm ci
-      - run: npm test
-      - run: npm run build
+      - run: sudo npm ci
+      - run: sudo npm test
+      - run: sudo npm run build
